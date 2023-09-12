@@ -1,5 +1,8 @@
 @import url("reset.css");
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
 #nav{
     height: 72px; 
     background: #19242D;
@@ -8,13 +11,126 @@
 .col-md-2{
     text-align: center;
     justify-content: center;
-    border-right: 2px solid #000;
 }
 .col-md-2 svg{
     width: 217.237px;
     height: 35.321px;
     margin-top: 18.34px;
-    position: absolute;
-    left: 135px;
+    position: relative;
+    right: 80px;
    
 }
+#nav .col-md-5{
+    opacity: 0.6;
+color: #FFF;
+font-family: 'Roboto', sans-serif;
+font-size: 25px;
+font-style: italic;
+font-weight: 900;
+line-height: normal;
+margin-top: 21.5px;
+position: relative;
+}
+#nav .col-md-5::before{
+    content: '';
+    position: absolute;
+    left: -25px;
+    top: 0;
+    width: 1px;
+height: 32px;
+background: #394957;
+}
+
+#nav .col-md-5::after{
+    content: '';
+    position: absolute;
+    right: -25px;
+    top: 0;
+    width: 1px;
+height: 32px;
+background: #394957;
+}
+#nav .col-md-5 span.orange{
+    color: #DC5426;
+    font-family: 'Roboto', sans-serif;
+font-size: 25px;
+font-style: italic;
+font-weight: 900;
+line-height: normal;
+opacity: 0.6;
+}
+
+#nav .col-md-5 span.yellow{
+    color: #E59D48;
+    font-family: 'Roboto', sans-serif;
+font-size: 25px;
+font-style: italic;
+font-weight: 900;
+line-height: normal;
+opacity: 0.6;
+}
+
+#nav .col-md-5 span.cars{
+    margin-right: 20px;
+}
+
+#nav .col-md-5 span.ads{
+    margin-right: 102.53px;
+}
+#nav .col-md-1{
+    color: #FFF;
+    font-family: 'Exo 2', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 24px;
+margin-left: 25px;
+position: relative;
+}
+
+#nav .col-md-1::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+height: 32px;
+background: #394957;
+}
+#nav .col-md-1 i{
+}
+#nav .col-md-1 i.fa-youtube{
+    color: #B62920;
+    position: relative;
+    left: -15px;
+    margin-top: 2px;
+    padding-top: 5px;
+}
+#nav .col-md-1 i.fa-square-facebook{
+    color: #3C88E7;
+    position: relative;
+    right: -15px;
+    margin-top: 2px;
+    padding-top: 5px;
+}
+#nav .phone{ 
+    color: #FFF;
+    font-family: 'Exo 2', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 24px;
+}
+#nav .phone i{
+    width: 17.997px;
+height: 18px;
+flex-shrink: 0;
+color: #5FB865;
+margin-top: 3.5px;
+margin-right: 5px;
+
+}
+
+
